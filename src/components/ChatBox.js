@@ -1,13 +1,14 @@
 import React from "react";
 import Message from "./Message";
+import SendMessage from "./SendMessage";
 
 function ChatBox() {
   return (
     <main className="chat-box">
       <div className="messages-wrapper">
-        <Message/>
+        <Message />
       </div>
-      {/* to finish whenever it's time */}
+      <SendMessage />
     </main>
   );
 }
