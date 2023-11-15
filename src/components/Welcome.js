@@ -1,8 +1,13 @@
 import React from "react";
+import { auth } from "../firebase";
+import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
 import GoogleSignIn from "../img/btn_google_signin_dark_pressed_web.png";
 
 function Welcome() {
-  const googleSignIn = () => {};
+  const googleSignIn = () => {
+    const provider = new GoogleAuthProvider();
+    signInWithRedirect(auth, provider);
+  };
   return (
     <main className="welcome">
       <h2 className="welcome__title">Welcome to this React Chat</h2>
