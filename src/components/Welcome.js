@@ -3,6 +3,7 @@ import { auth } from "../firebase";
 import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
 import GoogleSignIn from "../img/btn_google_signin_dark_pressed_web.png";
 import sakura from "../img/sakura.png";
+import Footer from "./Footer";
 
 function Welcome() {
   const googleSignIn = () => {
@@ -33,8 +34,10 @@ function Welcome() {
           src={GoogleSignIn}
           alt="sign in using Google"
           type="button"
+          className="sign-btn"
         />
       </button>
+      <Footer />
     </main>
   );
 }

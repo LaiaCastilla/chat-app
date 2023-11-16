@@ -58,13 +58,22 @@ h1.nav-bar__title {
   height: 35px;
   width: auto;
 }
+
+.sign-btn {
+  transition: all 200ms ease-in-out;
+}
+.sign-btn:hover {
+  transform: scale(1.04);
+}
 .sign-out {
   padding: 5px 10px;
   border-radius: 5px;
-  color: #88dded;
-  border: 1px solid #1c2c4c;
-  background-color: #1c2c4c;
   font-weight: 600;
+  color: #242443;
+  border: 1px solid #7cc5d9;
+  background-color: #7cc5d9;
+  font-weight: 400;
+  font-size: 17px;
 }
 
 /* welcome page */
@@ -80,6 +89,24 @@ h2.welcome__title {
 }
 .welcome :is(h2, p, img) {
   margin-bottom: 20px;
+}
+
+.footer {
+  top: 850px;
+  font-size: 14px;
+  font-family: monospace;
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
+.footer-link {
+  text-decoration: none;
+  color: #5f6769;
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+}
+.footer-link:hover {
+  color: #1c2c4c;
 }
 
 /* chat component */
@@ -167,11 +194,16 @@ h2.welcome__title {
 }
 .send-btn {
   font-size: 0px;
+  transition: all 200ms ease-in-out;
 }
 .send-btn::after {
   content: "送って";
 }
 .send-btn:hover::after {
   content: "Send";
-  font-weight: 600;
+}
+.send-btn:hover {
+  background-color: #5f6769;
+  border: 1px solid #5f6769;
+  color: #f5f3f2;
 }

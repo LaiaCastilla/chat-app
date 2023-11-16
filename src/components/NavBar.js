@@ -20,7 +20,7 @@ function NavBar() {
     <nav className="nav-bar">
       <h1 className="nav-bar__title">Nihongo exchange chat </h1>
       {user ? (
-        <button className="sign-out" onClick={signOut} type="button">
+        <button className="sign-out sign-btn" onClick={signOut} type="button">
           Sign out
         </button>
       ) : (
@@ -30,6 +30,7 @@ function NavBar() {
             src={GoogleSignIn}
             alt="Sign in with Google"
             type="button"
+            className="sign-btn"
           />
         </button>
       )}
