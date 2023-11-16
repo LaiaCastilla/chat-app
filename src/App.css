@@ -85,11 +85,12 @@ h2.welcome__title {
 .chat-bubble {
   border-radius: 20px 20px 20px 0;
   padding: 15px;
-  background-color: #7cc5d9;
-  color: #1c2c4c;
+  background-color: #719192;
+  color: #3c4245;
+  font-weight: 300;
   width: max-content;
   max-width: calc(100% - 50px);
-  box-shadow: -2px 2px 1px 1px #4c768d;
+  box-shadow: -2px 2px 1px 1px #719192;
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
@@ -97,8 +98,8 @@ h2.welcome__title {
 .chat-bubble.right {
   margin-left: auto;
   border-radius: 20px 20px 0 20px;
-  background-color: #fff;
-  box-shadow: -2px 2px 1px 1px #88dded;
+  background-color: #fffefd;
+  box-shadow: -2px 2px 1px 1px #719192;
 }
 .chat-bubble__left {
   width: 35px;
@@ -107,10 +108,10 @@ h2.welcome__title {
   margin-right: 10px;
 }
 .user-name {
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 5px;
-  font-size: 0.9rem;
-  color: #1c2c4c;
+  font-size: 14px;
+  color: #2b3941;
 }
 .user-message {
   word-break: break-all;
@@ -126,8 +127,9 @@ h2.welcome__title {
   bottom: 0px;
   width: 100%;
   padding: 20px 30px;
-  background-color: #4c768d;
+  background-color: #719192;
   display: flex;
+  font-family: Poppins;
 }
 .send-message > input {
   height: 40px;
@@ -135,7 +137,7 @@ h2.welcome__title {
   border-radius: 5px 0 0 5px;
   border: none;
   flex-grow: 1;
-  background-color: white;
+  background-color: #f5f3f2;
   color: #1c2c4c;
   font-size: 1rem;
 }
@@ -154,5 +156,6 @@ h2.welcome__title {
   color: #242443;
   border: 1px solid #7cc5d9;
   background-color: #7cc5d9;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 15px;
 }

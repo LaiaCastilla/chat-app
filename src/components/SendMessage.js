@@ -33,7 +33,7 @@ function SendMessage() {
         type="text"
         value={message}
         className="form-input__input"
-        placeholder="type your message..."
+        placeholder="Type your message..."
         onChange={(event) => setMessage(event.target.value)}
       />
       <button type="submit">Send</button>
