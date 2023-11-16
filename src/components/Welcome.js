@@ -16,7 +16,16 @@ function Welcome() {
         <br />
         Japanese Language Exchange Chat
       </h2>
-      <img src={sakura} alt="ReactJs logo" width={70} height={70} />
+
+      <a
+        href="https://www.flaticon.com/free-icons/flower"
+        title=" Flower icons created by Vitaly Gorbachev - Flaticon"
+        target="_blank"
+        rel="noreferrer"
+      >
+        {" "}
+        <img src={sakura} alt="ReactJs logo" width={70} height={70} />
+      </a>
       <p>Sign in with Google to chat with your fellow 日本語 learners</p>
       <button className="sign-in">
         <img

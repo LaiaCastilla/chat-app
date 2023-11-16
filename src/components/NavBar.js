@@ -18,7 +18,7 @@ function NavBar() {
 
   return (
     <nav className="nav-bar">
-      <h1 className="nav-bar__title">React chat</h1>
+      <h1 className="nav-bar__title">Nihongo exchange chat </h1>
       {user ? (
         <button className="sign-out" onClick={signOut} type="button">
           Sign out
