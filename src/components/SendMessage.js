@@ -37,9 +37,7 @@ function SendMessage({ scroll }) {
         placeholder="Type your message..."
         onChange={(event) => setMessage(event.target.value)}
       />
-      <button type="submit" title="Send">
-        送って
-      </button>
+      <button type="submit" title="Okutte" className="send-btn"></button>
     </form>
   );
 }
