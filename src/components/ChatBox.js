@@ -7,8 +7,6 @@ import {
   orderBy,
   onSnapshot,
   limit,
-  Query,
-  QuerySnapshot,
 } from "firebase/firestore";
 import { db } from "../firebase";
 
