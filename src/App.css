@@ -21,9 +21,13 @@ input {
 .App {
   width: 100%;
   min-height: 100vh;
-  background-color: #f6e9e2;
+  /* background-color: #f6e9e2; */
   color: #5f6769;
   padding-top: 60px;
+  background-image: url("img/tori.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* navbar */
