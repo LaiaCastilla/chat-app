@@ -28,6 +28,7 @@ input {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 /* navbar */
@@ -82,6 +83,7 @@ h2.welcome__title {
 }
 
 /* chat component */
+
 .messages-wrapper {
   padding: 30px;
   margin-bottom: 60px;
