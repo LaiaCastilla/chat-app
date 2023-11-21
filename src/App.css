@@ -223,6 +223,21 @@ h2.welcome__title {
     padding: 25px;
     margin-top: 40px;
   }
+  .messages-wrapper,
+  .chat-bubble {
+    padding: 10px;
+  }
+
+  .user-name {
+    margin-bottom: 4px;
+    font-size: 12px;
+  }
+  .user-message {
+    font-size: 14px;
+  }
+  .send-message {
+    padding: 10px 20px;
+  }
 }
 @media (max-width: 400px) and (max-height: 800px) {
   .welcome {
