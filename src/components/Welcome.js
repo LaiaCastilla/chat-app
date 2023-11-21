@@ -27,7 +27,10 @@ function Welcome() {
         {" "}
         <img src={sakura} alt="ReactJs logo" width={70} height={70} />
       </a>
-      <p>Sign in with Google to chat with your fellow 日本語 learners</p>
+      <p>
+        Sign in with Google to chat with your fellow <span>日本語</span>{" "}
+        learners
+      </p>
       <button className="sign-in">
         <img
           onClick={googleSignIn}
